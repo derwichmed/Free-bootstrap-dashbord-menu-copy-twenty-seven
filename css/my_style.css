@@ -1,0 +1,459 @@
+body{
+    background-color: #ecedf4
+}
+body > header{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #c4d4de 1px solid;
+    height: 80px
+}
+body > header > nav:first-child > div,
+body > header > nav:first-child > nav{
+    display: inline-block;
+    margin-left: 20px
+}
+body > header > nav:first-child .home_icon .sigle
+{
+    width: 180px;
+    height: 50px;
+    display: inline-block;
+}
+body > header > nav:first-child .home_icon .sigle_icon{
+    display: none
+}
+.side_bar_menu_icon{
+    width: 40px;
+    height: 23px;
+    display: inline-block;
+    margin-top: 7px;
+    cursor: pointer
+}
+body > header > nav:first-child nav .nav_item{
+    display: inline-block;
+    cursor: pointer
+}
+body > header > nav:first-child nav .nav_item .label{
+    display: none;
+}
+body > header > nav:first-child nav .nav_item + .nav_item{
+    margin-left: 20px
+}
+body > header > nav:first-child nav .nav_item > div{
+    position: relative;
+}
+body > header > nav:first-child nav .nav_item .icon{
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+}
+body > header > nav:first-child nav .nav_item .drop_down{
+    display: inline-block;
+    width: 8.75px;
+    height: 6.25px;
+}
+body > header > nav:first-child nav .nav_item .status{
+    border-radius: 100px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: inline-block;
+    font-size: 12px
+}
+body > header > nav:last-child .nav_item{
+    display: inline-block;
+    margin-right: 25px;
+    cursor: pointer
+}
+body > header > nav:last-child .nav_item > div{
+    position: relative;
+}
+body > header > nav:last-child .nav_item .icon{
+    width: 30px;
+    height: 20px;
+    margin-top: 17px;
+    display: inline-block
+}
+body > header > nav:last-child .nav_item .drop_down{
+    display: inline-block;
+    width: 8.75px;
+    height: 6.25px;
+    margin-top: 17px
+}
+body > header .nav_item .sub_menu{
+    background-color: white;
+    border: #c4d4de 1px solid;
+    border-radius: 5px;
+    width: 200px;
+    display: none;
+    z-index: 6000
+}
+body > header .nav_item .sub_menu .sub_menu_item{
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #343434;
+    cursor: pointer;
+}
+body > header .nav_item .sub_menu .sub_menu_item:hover{
+    color: skyblue
+}
+body > header .nav_item .sub_menu em{
+    color: #c4d4de;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 12px
+}
+body > header .nav_item .sub_menu .sub_menu_item .icon{
+    width: 25px;
+    height: 15px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px
+}
+body > header .nav_item .sub_menu .sub_menu_item .sub_menu{
+    left: 103%;
+    top: 0
+}
+body > header .nav_item .sub_menu .sub_menu_item > div{
+    position: relative
+}
+body > header .nav_item .sub_menu .sub_menu_item .drop_down{
+    float: right;
+    width: 15px;
+    height: 10px;
+    margin-top: 10px
+}
+body > header .nav_item .mega_menu{
+    display: none
+}
+body > header .nav_item .mega_menu > div{
+    height: 100%;
+    padding: 0px;
+    background-color: white;
+    border: #d7e0e7 1px solid;
+    border-radius: 5px;
+}
+body > header .nav_item .mega_menu > div >  div:first-child{
+    height: 100%;
+    background-color: #f6f7fa;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: #d7e0e7 1px solid;
+    padding-top: 20px;
+    padding-left: 25px
+}
+body > header .nav_item .mega_menu > div > div:first-child .item{
+    font-weight: bold;
+    font-size: 17px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    cursor: pointer
+}
+body > header .nav_item .mega_menu > div >  div:first-child .item:hover{
+    color: skyblue
+}
+body > header .nav_item .mega_menu > div > div:last-child{
+    padding-top: 20px;
+    padding-left: 25px
+}
+body > header .nav_item .mega_menu > div > div:last-child .item strong{
+    font-weight: normal;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 18px
+}
+body > header .nav_item .mega_menu > div > div:last-child .item p{
+    font-weight: normal;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: gray
+}
+body > header > nav:last-child .nav_item > div{
+    position: relative;
+    padding-bottom: 10px
+}
+body > header > nav:last-child .nav_item .input-group{
+    position: absolute;
+    right: 0;
+    width: 150px;
+    top: 10px
+}
+body > header > nav:last-child .nav_item .form-control{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-right: none;
+    height: 35px
+}
+body > header > nav:last-child .nav_item .input-group-text{
+    background-color: transparent;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: none;
+    height: 35px
+}
+body > header > nav:last-child .nav_item .input-group-text img{
+    width: 20px;
+    height: 20px
+}
+.form-control:focus {
+  box-shadow: none
+}
+body > header > nav:last-child .drop_down_color{
+    color: white;
+    background-color: skyblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+}
+body > header > nav:last-child .nav_item .drop_down{
+    float: right;
+    width: 10px;
+    height: 10px;
+}
+body > header .nav_item .notification_menu{
+    right: 0;
+    top: 70px;
+    width: 300px
+}
+body > header .nav_item .notification_menu header{
+    border-bottom: #d7e0e7 1px solid;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+body > header .nav_item .notification_menu header em{
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+    padding: 5px
+}
+body > header .nav_item .notification_menu section{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    margin-top: 5px
+}
+body > header .nav_item .notification_menu section .item img{
+    border-radius: 100px;
+    width: 55px;
+    height: 55px;
+}
+body > header .nav_item .notification_menu section .item_color{
+    background-color: #eff4fa
+}
+body > header .nav_item .language_sub_menu .sub_menu_item{
+    width: 120px;
+    display: inline-block;
+    margin: auto;
+}
+body > header .nav_item .language_sub_menu .sub_menu_item img{
+    width: 30px;
+    height: 25px;
+    float: left;
+    margin-right: 8px
+}
+body > header .nav_item .user_manager_sub_menu{
+    right: 0;
+    top: 50px;
+    padding-top: 15px
+}
+body > header > nav:last-child .sigle_mobile{
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    display: none
+}
+body > header > nav:last-child .sigle_mobile_item{
+    display: none;
+}
+body > header > nav:last-child .side_bar_menu_icon_item{
+    display: none
+}
+#mobile_effect_div{
+    position: fixed;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45,45,45,.70);
+    display: none
+}
+#mobile_effect_02_div{
+    position: fixed;
+    z-index: 5000;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45,45,45,.70);
+    display: none
+}
+body > header > nav:last-child .nav_bar_menu{
+    display: none
+}
+.side_bar_dashbord{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 250px;
+    border-right: #c4d4de 1px solid;
+    z-index: 6000
+}
+.side_bar_dashbord > header{
+    width: 100%;
+    background-color: #f6f7fa;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.side_bar_dashbord > header img{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+}
+.side_bar_dashbord > section .item{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.side_bar_dashbord > section .item:hover{
+    background-color: #c4d4de;
+    border-left: #ba00ed 5px solid
+}
+.side_bar_dashbord > section .item strong{
+    color: gray;
+}
+.side_bar_dashbord > section .item .icon{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px
+}
+.side_bar_dashbord > section .item .drop_down{
+    float: right;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px
+}
+body > header .nav_item .language_sub_menu{
+    right: 0;
+    top: 70px;
+    font-family: "Raleway";
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.side_bar_dashbord > section .item .sub_item{
+    display: none
+}
+@media(min-width: 970px){
+    body > header .nav_item .sub_menu{
+        position: absolute;
+        width: 200px;
+        z-index: 10000
+    }    
+    body > header .nav_item .language_sub_menu{
+        width: 300px;
+    }
+    body > header .nav_item .mega_menu{
+        width: 700px;
+        height: 300px;
+        position: fixed;
+        left: 100px;
+        z-index: 10000
+    }
+}
+@media(max-width: 970px){
+    body > header > nav:first-child nav .nav_item{
+        display: block;
+        margin-top: 15px;
+    }
+    body > header > nav:last-child{
+        width: 100%;
+    }
+    body > header > nav:last-child .nav_item{
+        margin-right: 5px;
+        margin: auto;
+    }
+    body > header > nav:last-child .sigle_mobile_item{
+        display: inline-block;
+    }
+    body > header > nav:last-child .side_bar_menu_icon_item{
+        display: inline-block
+    }
+    body > header > nav:last-child .side_bar_menu_icon{
+        display: inline-block;
+    }
+    body > header > nav:last-child .nav_bar_menu{
+        display: inline-block
+    }
+    body > header > nav:last-child .item_search{
+        display: none
+    }
+    body > header  > nav:last-child .nav_item .sub_menu{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 80px
+    }
+    body > header > nav:first-child{
+        position: fixed;
+        z-index: 9000;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 250px;
+        background-color: white;
+        overflow-y: scroll;
+        overflow-x: hidden;   
+        padding: 10px;
+        display: none
+    }
+    body > header > nav:first-child nav .nav_item .label{
+        display: inline-block;
+    }
+    body > header > nav:first-child nav .nav_item + .nav_item{
+        margin-left: 0px
+    }
+    body > header > nav:first-child > div{
+        display: none
+    }
+    body > header .nav_item .mega_menu{
+        width: 100%
+    }
+    .side_bar_dashbord{
+        display: none;
+        overflow-y: scroll;
+        overflow-x: hidden
+    }
+}
